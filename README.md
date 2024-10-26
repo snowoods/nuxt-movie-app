@@ -3,6 +3,8 @@
 
 Netlify: <a href="https://snowoods-nuxt-movie.netlify.app/" target="_blank" style="text-decoration: none;">OMDb API 영화 검색</a>
 
+express로 자체 API 함수를 구현하여 검색은 안된다.
+
 ## Build Setup
 
 ```bash

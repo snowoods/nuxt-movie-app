@@ -1,6 +1,7 @@
 # nuxt-movie-app
 
-웹 사이트: <a href="https://snowoods-nuxt-movie.netlify.app/" target="_blank" style="text-decoration: none;">OMDb API 영화 검색</a>
+
+Netlify: <a href="https://snowoods-nuxt-movie.netlify.app/" target="_blank" style="text-decoration: none;">OMDb API 영화 검색</a>
 
 ## Build Setup
 

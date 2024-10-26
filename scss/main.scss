@@ -1,0 +1,36 @@
+// Default variable overrides
+// $body-bg: #000;
+// $body-color: #111;
+$primary: #FDC000;
+$link-color: $primary;
+$container-max-widths: (
+  sm: 540px,
+  md: 704px,
+  lg: 924px,
+  xl: 1140px,
+  xxl: 1364px
+);
+
+// Required
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+@import "~bootstrap/scss/bootstrap";
+
+
+// // Required
+// @use "~bootstrap/scss/functions" as *;
+// @use "~bootstrap/scss/variables" as *;
+// // @use "~bootstrap/scss/variables-dark" as *;
+// // @use "~bootstrap/scss/maps" as *;
+// @use "~bootstrap/scss/mixins" as *;
+// // @use "~bootstrap/scss/root" as *;
+
+// // Optional Bootstrap components here
+// // @use "~bootstrap/scss/reboot" as *;
+// // @use "~bootstrap/scss/type" as *;
+// // etc
+
+// // 위 수정을 기반으로 최종 구성한다.
+// @use "~bootstrap/scss/bootstrap" as *;

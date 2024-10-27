@@ -100,9 +100,8 @@ export default {
   }
   .btn {
     width: 120px;
-    height: 50px;
-    font-weight: 700;
     flex-shrink: 0; // 감소 비율 : 0이므로 다른 조정 가능한 컴포넌트가 줄어 든다. ex) Input
+    font-weight: 700;
   }
 
   @include media-breakpoint-down(lg) {
@@ -112,6 +111,7 @@ export default {
       margin-bottom: 10px;
     }
     .selects {
+      height: 30px;
       margin-right: 0;
       margin-bottom: 10px;      
       select {

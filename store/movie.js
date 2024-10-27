@@ -148,11 +148,18 @@ export default {
 }
 
 async function _fetchMovie(payload) {
-  const url = process.client
-    ? '/.netlify/functions/movie'
-    : `${process.env.CLIENT_URL}/.netlify/functions/movie`
-  return await axios.post(url, payload)  // 람다 호출
+  return await axios.post('/.netlify/functions/movie', payload)  // 람다 호출
 
+
+  // // use server-middleware case
+  // const url = process.client
+  //   ? '/.netlify/functions/movie'
+  //   : `${process.env.CLIENT_URL}/.netlify/functions/movie`
+  // return await axios.post(url, payload)  // 람다 호출
+
+
+
+  // 직접 호출하면 API키가 노출된다.
   // const { title, type, year, page, id } = payload
   // const OMDB_API_KEY = '18372ba4'
   // const url = id 

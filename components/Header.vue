@@ -10,7 +10,8 @@
           :to="nav.href"
           active-class="active" 
           :class="{ active: isMatch(nav.path) }"
-          class="nav-link">
+          class="nav-link"
+          exact>
           {{ nav.name }}
         </NuxtLink>
       </div>

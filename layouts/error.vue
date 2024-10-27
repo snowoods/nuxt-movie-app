@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<!-- <style lang="scss" scoped>
+<style lang="scss" scoped>
 .not-found {
   line-height: 1.2;
   text-align: center;
@@ -23,4 +23,4 @@
     font-size: 50px;
   }
 }
-</style> -->
+</style>

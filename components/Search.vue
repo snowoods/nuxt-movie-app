@@ -100,6 +100,7 @@ export default {
   }
   .btn {
     width: 120px;
+    height: 35px;
     flex-shrink: 0; // 감소 비율 : 0이므로 다른 조정 가능한 컴포넌트가 줄어 든다. ex) Input
     font-weight: 700;
   }
@@ -107,11 +108,12 @@ export default {
   @include media-breakpoint-down(lg) {
     display: block; // 기존 수평 배치(flex)에서 수직(block)으로 변경
     input {
+      height: 35px;
       margin-right: 0;
       margin-bottom: 10px;
     }
     .selects {
-      height: 30px;
+      height: 35px;
       margin-right: 0;
       margin-bottom: 10px;      
       select {
@@ -119,7 +121,8 @@ export default {
       }
     }
     .btn {
-      width: 100%
+      height: 35px;
+      width: 100%;
     }
   }
 }

@@ -84,9 +84,9 @@ export default {
           // message: 'Hello world!',
           // loading: true
         })
-        console.log(Search)
-        console.log(totalResults)
-        console.log(typeof totalResults)
+        // console.log(Search)
+        // console.log(totalResults)
+        // console.log(typeof totalResults)
 
         const total = parseInt(totalResults, 10)
         const pageLength = Math.ceil(total / 10)

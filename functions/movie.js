@@ -2,7 +2,7 @@ const axios = require('axios')
 const { OMDB_API_KEY } = process.env
 
 exports.handler = async function (event, context) {
-  console.log("netlify function!");
+  // console.log("netlify function!");
   // console.log(event)
   // console.log(context)
   const payload = JSON.parse(event.body)

@@ -11,7 +11,7 @@ express로 자체 API 함수를 구현하여 검색은 안된다.
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:7070
 $ npm run dev
 
 # build for production and launch server

@@ -81,8 +81,14 @@ export default {
           silenceDeprecations: true
         } 
       }
-    }    
+    },   
   },
+
+  // DEV for netlify
+  server: {
+    host: 'localhost',
+    port: 7079, // 이 포트를 원하는 값으로 설정
+  },  
 
   serverMiddleware: [
     { path: '/.netlify/functions/movie', handler: '~/server-middleware/movie.js' }

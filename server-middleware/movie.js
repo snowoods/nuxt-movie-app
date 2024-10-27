@@ -16,6 +16,7 @@ app.post('/', async (req, res) => { // 마지막 경로를 / 대신 변경할 �
 
   try {
     const { data } = await axios.get(url)
+    console.log("server-middleware function!");
     if (data.Error) {
       res.status(400)
         .json(data.Error)

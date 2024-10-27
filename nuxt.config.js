@@ -92,5 +92,9 @@ export default {
 
   serverMiddleware: [
     { path: '/.netlify/functions/movie', handler: '~/server-middleware/movie.js' }
-  ]  
+  ],
+
+  generate: {
+    dir: 'dist' // 배포 디렉토리를 'dist'로 설정
+  }
 }
